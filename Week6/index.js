@@ -57,7 +57,7 @@ function init() {
   // create several objects which we can activate with raycasting
   // use a shared geometry for each object
   let geo = new THREE.TorusGeometry(1, 0.5, 12, 12);
-  activeMat = new THREE.MeshBasicMaterial({ color: 0x9D5C63 });
+  activeMat = new THREE.MeshBasicMaterial({ color: 0xb07d62 });
   inactiveMat = new THREE.MeshBasicMaterial();
 
   for (let i = 0; i < 10; i++) {
